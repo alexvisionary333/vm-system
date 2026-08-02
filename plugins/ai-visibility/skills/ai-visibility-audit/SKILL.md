@@ -88,7 +88,13 @@ finding. "Review prompt-set.json" is not a question a person can answer.
 5. **Prices only ever come from the call notes.** No price exists in the audit
    record or the case study library. The user adds them after the meeting,
    because they get spoken aloud.
-6. **Do not change the brand tokens** in `_system/visionary_media.py`.
+6. **No scores.** Findings state what is true and what is concretely absent,
+   with the measurements underneath. A 0-100 grade is a number we invented
+   about data we already have — it invites the client to argue with the score
+   instead of the facts, and it is the one figure that cannot be traced to a
+   source. If you catch yourself writing "38/100", write what is missing
+   instead.
+7. **Do not change the brand tokens** in `_system/visionary_media.py`.
 
 ## Notes are freeform, facts are not
 

@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0",
+  "client": {
+    "name": "Icon",
+    "url": "https://icon.com",
+    "category": "Human UGC ad production for DTC brands",
+    "competitors": [
+      "Billo",
+      "Soona",
+      "Arcads",
+      "Insense",
+      "Foreplay",
+      "Motion"
+    ],
+    "positioning_note": "Launched as 'The AI Admaker', now positioned 'no AI / 100% real'. Original launch drove 2.2M X views and 9.2K LinkedIn comments describing the previous category."
+  },
+  "run": {
+    "date": "2026-07-31",
+    "operator": "workflow",
+    "prompt_set_reviewed_by_human": true
+  },
+  "platform_metrics": {
+    "source": "Semrush",
+    "ai_visibility_score": 18,
+    "mentions_by_engine": {
+      "ChatGPT": 3,
+      "Google AI Overviews": 2,
+      "Google AI Mode": 15,
+      "Gemini": 4
+    },
+    "cited_pages_by_engine": {
+      "ChatGPT": 34,
+      "Google AI Overviews": 3,
+      "Google AI Mode": 1,
+      "Gemini": 0
+    },
+    "authority_score": 35,
+    "organic_traffic": {
+      "value": 8600,
+      "delta_pct": 3.1
+    },
+    "organic_keywords": {
+      "value": 1900,
+      "delta_pct": -15
+    },
+    "paid_keywords": 0,
+    "backlinks": 45500,
+    "referring_domains": 1800,
+    "mentions_total": 24,
+    "cited_pages_total": 36,
+    "cited_pages_total_note": "Semrush reports 36; per-engine values sum to 38. Use Semrush's figure and cite it as Semrush's."
+  },
+  "prompt_runs": [
+    {
+      "prompt": "best UGC ad agency for DTC brands",
+      "engine": "Perplexity",
+      "date": "2026-07-31",
+      "prompt_type": "category",
+      "client_named": false,
+      "competitors_named": [
+        "Brighter Click",
+        "MHI Media",
+        "The Influence Agency",
+        "New Engen",
+        "MuteSix"
+      ],
+      "screenshot": "images/fig1.png",
+      "sentiment": "n/a"
+    },
+    {
+      "prompt": "Billo alternatives for UGC video ads",
+      "engine": "Perplexity",
+      "date": "2026-07-31",
+      "prompt_type": "alternatives",
+      "client_named": false,
+      "competitors_named": [
+        "Insense",
+        "Collabstr",
+        "JoinBrands",
+        "Influee",
+        "Trend.io"
+      ],
+      "screenshot": "images/fig2.png",
+      "sentiment": "n/a",
+      "verbatim_note": "Icon names Billo on its own pricing page."
+    },
+    {
+      "prompt": "best AI ad generator for ecommerce brands",
+      "engine": "Perplexity",
+      "date": "2026-07-31",
+      "prompt_type": "category",
+      "client_named": false,
+      "competitors_named": [
+        "Creatify",
+        "Shhots AI",
+        "AdCreative.ai"
+      ],
+      "screenshot": "images/fig3.png",
+      "sentiment": "n/a"
+    },
+    {
+      "prompt": "Is Icon (icon.com) a good service for UGC ads?",
+      "engine": "Perplexity",
+      "date": "2026-07-31",
+      "prompt_type": "branded",
+      "client_named": true,
+      "competitors_named": [
+        "Billo",
+        "Soona",
+        "Arcads"
+      ],
+      "sources_cited": [
+        "trustpilot.com"
+      ],
+      "sentiment": "hedged",
+      "screenshot": "images/fig4.png",
+      "verbatim_note": "Answer sourced from review aggregators; raises concerns about pricing, terms and product limitations."
+    }
+  ],
+  "gaps": [
+    {
+      "layer": "off_domain_authority",
+      "score_today": 22,
+      "finding": "Absent from every third-party roundup and buyer's guide the engines cite for this category.",
+      "evidence": [
+        "0 of 3 category prompts named Icon"
+      ]
+    },
+    {
+      "layer": "on_page",
+      "score_today": 41,
+      "finding": "ChatGPT cites 34 pages but names Icon 3 times: the site reads as reference material, not as an answer to a hiring question."
+    },
+    {
+      "layer": "entity_schema",
+      "score_today": 30,
+      "finding": "Gemini cites zero Icon pages. No structured signals tying the brand to its current category."
+    },
+    {
+      "layer": "live_ai_baseline",
+      "score_today": 18,
+      "finding": "Branded answers are assembled from review aggregators rather than owned sources."
+    }
+  ],
+  "recommendations": [
+    {
+      "track": "Own the branded answer",
+      "time_to_impact": "weeks",
+      "effort": "medium",
+      "rationale": "Branded queries respond to source availability, not to accumulated authority, so this is the only track that can move before a launch.",
+      "deliverables": [
+        "Citable answers for is-Icon-legit / pricing / vs-Billo / vs-Soona",
+        "Review velocity across Trustpilot, G2, Capterra",
+        "Organization, Service, FAQPage, Review schema"
+      ],
+      "client_dependencies": [
+        "Customer list for review outreach",
+        "Named approver"
+      ]
+    },
+    {
+      "track": "Enter the category set",
+      "time_to_impact": "3-6 months",
+      "effort": "high",
+      "rationale": "Roundup placements and review-site authority are what the engines actually read for category questions, and they accumulate slowly.",
+      "deliverables": [
+        "Comparison pages vs Billo, Soona, Arcads, Insense",
+        "Outreach to roundup maintainers",
+        "Directory and review profiles claimed"
+      ]
+    },
+    {
+      "track": "Capture the launch",
+      "time_to_impact": "weeks",
+      "effort": "medium",
+      "rationale": "Launch coverage is the raw material engines will cite for the next year; unstructured, it is wasted on this channel.",
+      "deliverables": [
+        "Launch coverage structured and syndicated",
+        "Post-launch re-run of the full prompt set"
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "metric": "AI Visibility score",
+      "today": 18,
+      "day_90": 26,
+      "stretch": 34,
+      "pace_note": "Composite; moves as the underlying layers move."
+    },
+    {
+      "metric": "Category prompts naming Icon (of 4)",
+      "today": 0,
+      "day_90": 1,
+      "stretch": 2,
+      "pace_note": "Slowest row. Depends on third-party roundups, which take 60 to 90 days to surface in citations."
+    },
+    {
+      "metric": "Pages cited by Gemini",
+      "today": 0,
+      "day_90": 3,
+      "stretch": 6,
+      "pace_note": "Blocked on schema and entity work; expect nothing for the first 30 days, then a step change."
+    },
+    {
+      "metric": "Branded answer sentiment",
+      "today": "hedged",
+      "day_90": "neutral",
+      "stretch": "positive",
+      "pace_note": "Fastest row. Depends only on owned sources existing."
+    }
+  ],
+  "unknowns": [
+    "Average customer LTV \u2014 required for the cost-of-inaction arithmetic",
+    "Budget range \u2014 required before the Investment section can be priced",
+    "Whether Google Ads spend exists; Semrush shows 0 paid keywords"
+  ]
+}

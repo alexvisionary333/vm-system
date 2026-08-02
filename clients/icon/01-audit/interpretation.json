@@ -1,0 +1,64 @@
+{
+  "_README": "The two things a crawl cannot produce. The strategist writes these after reading the captured answers. Leave blank and the audit still validates — the proposal will just carry REPLACE markers for the plan and the day-90 column.",
+  "positioning_note": "Launched as 'The AI Admaker', now positioned 'no AI / 100% real'. Original launch drove 2.2M X views and 9.2K LinkedIn comments describing the previous category.",
+  "recommendations": [
+    {
+      "track": "Own the branded answer",
+      "time_to_impact": "weeks",
+      "effort": "medium",
+      "rationale": "Branded queries respond to source availability, not to accumulated authority, so this is the only track that can move before a launch.",
+      "deliverables": [
+        "Citable answers for is-Icon-legit / pricing / vs-Billo / vs-Soona",
+        "Review velocity across Trustpilot, G2, Capterra",
+        "Organization, Service, FAQPage, Review schema"
+      ],
+      "client_dependencies": [
+        "Customer list for review outreach",
+        "Named approver"
+      ]
+    },
+    {
+      "track": "Enter the category set",
+      "time_to_impact": "3-6 months",
+      "effort": "high",
+      "rationale": "Roundup placements and review-site authority are what the engines actually read for category questions, and they accumulate slowly.",
+      "deliverables": [
+        "Comparison pages vs Billo, Soona, Arcads, Insense",
+        "Outreach to roundup maintainers",
+        "Directory and review profiles claimed"
+      ]
+    },
+    {
+      "track": "Capture the launch",
+      "time_to_impact": "weeks",
+      "effort": "medium",
+      "rationale": "Launch coverage is the raw material engines will cite for the next year; unstructured, it is wasted on this channel.",
+      "deliverables": [
+        "Launch coverage structured and syndicated",
+        "Post-launch re-run of the full prompt set"
+      ]
+    }
+  ],
+  "target_commitments": {
+    "AI Visibility score": {
+      "day_90": 26,
+      "stretch": 34,
+      "pace_note": "Composite; moves as the underlying layers move."
+    },
+    "Pages cited — Gemini": {
+      "day_90": 3,
+      "stretch": 6,
+      "pace_note": "Blocked on schema and entity work; expect nothing for the first 30 days, then a step change."
+    },
+    "Branded answer sentiment": {
+      "day_90": "neutral",
+      "stretch": "positive",
+      "pace_note": "Fastest row. Depends only on owned sources existing."
+    },
+    "Discovery prompts naming the client": {
+      "day_90": 1,
+      "stretch": 2,
+      "pace_note": "Slowest row. Depends on third-party roundups, which take 60 to 90 days to surface in citations."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "url": "https://icon.com",
+  "checked": "2026-08-02",
+  "homepage_status": 200,
+  "title": "The Human Admaker | Icon",
+  "meta_description": "6 Human UGC ads filmed &amp; edited for $1000 (no AI / 100% real). We find creators, ship products, curate formats, write scripts, coach creators, &amp; edit videos (2 creators × 3 ads each). Powered by Admaker 2.0 software: track progress, review ads, rebook creators, &amp; reuse assets.",
+  "sitemap_urls": [
+    "https://icon.com/sitemap.xml"
+  ],
+  "robots_status": 200,
+  "ai_crawlers_blocked": [],
+  "ai_crawlers_allowed": [
+    "GPTBot",
+    "OAI-SearchBot",
+    "ChatGPT-User",
+    "ClaudeBot",
+    "anthropic-ai",
+    "PerplexityBot",
+    "Google-Extended",
+    "CCBot",
+    "Bytespider",
+    "Applebot-Extended"
+  ],
+  "entity_types_present": [],
+  "entity_types_missing": [
+    "Organization",
+    "WebSite",
+    "Service/Product",
+    "FAQPage",
+    "Review"
+  ],
+  "jsonld_blocks": 0,
+  "errors": []
+}

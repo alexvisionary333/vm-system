@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "client": {
+    "name": "icon",
+    "url": "https://icon.com",
+    "category": "UGC ad agency for DTC brands",
+    "competitors": [
+      "Billo",
+      "Soona",
+      "Arcads",
+      "Insense"
+    ],
+    "positioning_note": "Launched as 'The AI Admaker', now positioned 'no AI / 100% real'. Original launch drove 2.2M X views and 9.2K LinkedIn comments describing the previous category."
+  },
+  "run": {
+    "date": "2026-08-02",
+    "operator": "Alex",
+    "prompt_set_reviewed_by_human": true
+  },
+  "platform_metrics": {
+    "source": "Semrush",
+    "date": "2026-07-31",
+    "ai_visibility_score": 18,
+    "mentions_by_engine": {
+      "ChatGPT": 3,
+      "Google AI Overviews": 2,
+      "Google AI Mode": 15,
+      "Gemini": 4
+    },
+    "cited_pages_by_engine": {
+      "ChatGPT": 34,
+      "Google AI Overviews": 3,
+      "Google AI Mode": 1,
+      "Gemini": 0
+    },
+    "mentions_total": 24,
+    "cited_pages_total": 36,
+    "authority_score": 35,
+    "organic_traffic": {
+      "value": 8600,
+      "delta_pct": 3.1
+    },
+    "organic_keywords": {
+      "value": 1900,
+      "delta_pct": -15
+    },
+    "paid_keywords": 0,
+    "backlinks": 45500,
+    "referring_domains": 1800,
+    "cited_pages_total_note": "Semrush reports 36; per-engine values sum to 38. Use Semrush's figure and cite it as Semrush's."
+  },
+  "prompt_runs": [
+    {
+      "prompt": "best UGC ad agency for DTC brands",
+      "engine": "Perplexity",
+      "date": "2026-07-31",
+      "client_named": false,
+      "competitors_named": [
+        "Brighter Click",
+        "MHI Media",
+        "The Influence Agency",
+        "New Engen",
+        "MuteSix"
+      ],
+      "prompt_type": "category",
+      "sentiment": "n/a",
+      "screenshot": "images/fig1.png"
+    },
+    {
+      "prompt": "best AI ad generator for ecommerce brands",
+      "engine": "Perplexity",
+      "date": "2026-07-31",
+      "client_named": false,
+      "competitors_named": [
+        "Creatify",
+        "Shhots AI",
+        "AdCreative.ai"
+      ],
+      "prompt_type": "category",
+      "sentiment": "n/a",
+      "screenshot": "images/fig3.png"
+    },
+    {
+      "prompt": "Billo alternatives for UGC video ads",
+      "engine": "Perplexity",
+      "date": "2026-07-31",
+      "client_named": false,
+      "competitors_named": [
+        "Insense",
+        "Collabstr",
+        "JoinBrands",
+        "Influee",
+        "Trend.io"
+      ],
+      "prompt_type": "alternatives",
+      "sentiment": "n/a",
+      "screenshot": "images/fig2.png",
+      "verbatim_note": "Icon names Billo on its own pricing page."
+    },
+    {
+      "prompt": "Is Icon (icon.com) a good service for UGC video ads?",
+      "engine": "Perplexity",
+      "date": "2026-07-31",
+      "client_named": true,
+      "competitors_named": [
+        "Billo",
+        "Soona",
+        "Arcads"
+      ],
+      "prompt_type": "branded",
+      "sources_cited": [
+        "trustpilot.com"
+      ],
+      "sentiment": "hedged",
+      "screenshot": "images/fig4.png",
+      "verbatim_note": "Answer sourced from review aggregators; raises concerns about pricing, terms and product limitations."
+    }
+  ],
+  "gaps": [
+    {
+      "layer": "crawlability",
+      "finding": "Every major AI crawler is permitted and a sitemap is declared. The engines can read the site — this is not the constraint.",
+      "missing": [],
+      "evidence": [
+        "robots.txt read 2026-08-02",
+        "permitted: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, CCBot, Bytespider, Applebot-Extended",
+        "disallowed: none",
+        "sitemap: https://icon.com/sitemap.xml"
+      ]
+    },
+    {
+      "layer": "entity_schema",
+      "finding": "The homepage carries no structured data at all — 0 JSON-LD blocks. Nothing on the site tells an engine what this company is or what it sells. Gemini cites zero pages.",
+      "missing": [
+        "Organization structured data on the homepage",
+        "WebSite structured data on the homepage",
+        "Service/Product structured data on the homepage",
+        "FAQPage structured data on the homepage",
+        "Review structured data on the homepage",
+        "Any page Gemini is willing to cite"
+      ],
+      "evidence": [
+        "present: none",
+        "absent: Organization, WebSite, Service/Product, FAQPage, Review",
+        "ChatGPT: 34 page(s) cited",
+        "Google AI Overviews: 3 page(s) cited",
+        "Google AI Mode: 1 page(s) cited",
+        "Gemini: 0 page(s) cited"
+      ]
+    },
+    {
+      "layer": "on_page",
+      "finding": "ChatGPT reads 34 pages on the site and names the brand 3 time(s). The pages are being crawled and are not producing recommendations.",
+      "missing": [
+        "Pages that answer a hiring question directly — ChatGPT currently finds 31 page(s) it reads but does not cite in an answer"
+      ],
+      "evidence": [
+        "source: Semrush",
+        "ChatGPT: 3 mention(s) from 34 cited page(s)",
+        "Google AI Overviews: 2 mention(s) from 3 cited page(s)",
+        "Google AI Mode: 15 mention(s) from 1 cited page(s)"
+      ]
+    },
+    {
+      "layer": "off_domain_authority",
+      "finding": "Absent from all 3 discovery prompts. 13 other companies were named instead.",
+      "missing": [
+        "Presence in the sources that answer “best UGC ad agency for DTC brands”",
+        "Presence in the sources that answer “best AI ad generator for ecommerce brands”",
+        "Presence in the sources that answer “Billo alternatives for UGC video ads”"
+      ],
+      "evidence": [
+        "“best UGC ad agency for DTC brands” (Perplexity, 2026-07-31) — not named; returned: Brighter Click, MHI Media, The Influence Agency, New Engen, MuteSix",
+        "“best AI ad generator for ecommerce brands” (Perplexity, 2026-07-31) — not named; returned: Creatify, Shhots AI, AdCreative.ai",
+        "“Billo alternatives for UGC video ads” (Perplexity, 2026-07-31) — not named; returned: Insense, Collabstr, JoinBrands, Influee, Trend.io"
+      ]
+    },
+    {
+      "layer": "live_ai_baseline",
+      "finding": "Asked about the brand by name, the engine answers from trustpilot.com and not from icon.com. The tone is hedged.",
+      "missing": [
+        "An owned page icon.com controls that answers “Is Icon (icon.com) a good service for UGC video ads?”"
+      ],
+      "evidence": [
+        "“Is Icon (icon.com) a good service for UGC video ads?” (Perplexity, 2026-07-31) — cited: trustpilot.com; Answer sourced from review aggregators; raises concerns about pricing, terms and product limitations."
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "track": "Own the branded answer",
+      "time_to_impact": "weeks",
+      "effort": "medium",
+      "rationale": "Branded queries respond to source availability, not to accumulated authority, so this is the only track that can move before a launch.",
+      "deliverables": [
+        "Citable answers for is-Icon-legit / pricing / vs-Billo / vs-Soona",
+        "Review velocity across Trustpilot, G2, Capterra",
+        "Organization, Service, FAQPage, Review schema"
+      ],
+      "client_dependencies": [
+        "Customer list for review outreach",
+        "Named approver"
+      ]
+    },
+    {
+      "track": "Enter the category set",
+      "time_to_impact": "3-6 months",
+      "effort": "high",
+      "rationale": "Roundup placements and review-site authority are what the engines actually read for category questions, and they accumulate slowly.",
+      "deliverables": [
+        "Comparison pages vs Billo, Soona, Arcads, Insense",
+        "Outreach to roundup maintainers",
+        "Directory and review profiles claimed"
+      ]
+    },
+    {
+      "track": "Capture the launch",
+      "time_to_impact": "weeks",
+      "effort": "medium",
+      "rationale": "Launch coverage is the raw material engines will cite for the next year; unstructured, it is wasted on this channel.",
+      "deliverables": [
+        "Launch coverage structured and syndicated",
+        "Post-launch re-run of the full prompt set"
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "metric": "AI Visibility score",
+      "today": 18,
+      "day_90": 26,
+      "stretch": 34,
+      "pace_note": "Composite; moves as the underlying layers move."
+    },
+    {
+      "metric": "Discovery prompts naming the client",
+      "today": "0 of 3",
+      "day_90": 1,
+      "stretch": 2,
+      "pace_note": "Slowest row. Depends on third-party roundups, which take 60 to 90 days to surface in citations."
+    },
+    {
+      "metric": "Pages cited — Gemini",
+      "today": 0,
+      "day_90": 3,
+      "stretch": 6,
+      "pace_note": "Blocked on schema and entity work; expect nothing for the first 30 days, then a step change."
+    },
+    {
+      "metric": "Branded answer sentiment",
+      "today": "hedged",
+      "day_90": "neutral",
+      "stretch": "positive",
+      "pace_note": "Fastest row. Depends only on owned sources existing."
+    }
+  ],
+  "unknowns": [
+    "prompt run not completed: \"Soona alternatives for UGC video ads\" (Perplexity)",
+    "prompt run not completed: \"Icon vs Billo\" (Perplexity)",
+    "prompt run not completed: \"Icon vs Soona\" (Perplexity)",
+    "prompt run not completed: \"how to choose a UGC ad agency for DTC brands\" (Perplexity)",
+    "prompt run not completed: \"Icon reviews — is it legit?\" (Perplexity)",
+    "Screenshot file missing on disk: images/fig3.png — referenced by \"best AI ad generator for ecommerce brands\" (Perplexity); the figure will not render",
+    "Screenshot file missing on disk: images/fig2.png — referenced by \"Billo alternatives for UGC video ads\" (Perplexity); the figure will not render",
+    "Screenshot file missing on disk: images/fig4.png — referenced by \"Is Icon (icon.com) a good service for UGC video ads?\" (Perplexity); the figure will not render"
+  ]
+}

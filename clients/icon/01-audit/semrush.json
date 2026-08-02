@@ -1,0 +1,33 @@
+{
+  "_README": "Paste from the Semrush AI Toolkit + Domain Overview. Delete any line you cannot read off the screen — a deleted line becomes an unknown, a guessed line becomes a lie in a client PDF.",
+  "source": "Semrush",
+  "date": "2026-07-31",
+  "ai_visibility_score": 18,
+  "mentions_by_engine": {
+    "ChatGPT": 3,
+    "Google AI Overviews": 2,
+    "Google AI Mode": 15,
+    "Gemini": 4
+  },
+  "cited_pages_by_engine": {
+    "ChatGPT": 34,
+    "Google AI Overviews": 3,
+    "Google AI Mode": 1,
+    "Gemini": 0
+  },
+  "mentions_total": 24,
+  "cited_pages_total": 36,
+  "authority_score": 35,
+  "organic_traffic": {
+    "value": 8600,
+    "delta_pct": 3.1
+  },
+  "organic_keywords": {
+    "value": 1900,
+    "delta_pct": -15
+  },
+  "paid_keywords": 0,
+  "backlinks": 45500,
+  "referring_domains": 1800,
+  "cited_pages_total_note": "Semrush reports 36; per-engine values sum to 38. Use Semrush's figure and cite it as Semrush's."
+}

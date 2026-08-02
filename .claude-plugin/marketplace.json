@@ -1,0 +1,13 @@
+{
+  "name": "visionary-media",
+  "owner": { "name": "Visionary Media" },
+  "metadata": { "pluginRoot": "./plugins" },
+  "plugins": [
+    {
+      "name": "ai-visibility",
+      "source": "./ai-visibility",
+      "description": "Visionary Media's AI visibility workflow — audit, Call 1 leave-behind, proposal.",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ai-visibility",
+  "version": "1.0.0",
+  "description": "Audit a client's presence in AI answers, produce the Call 1 leave-behind, and build the proposal. Nine review gates; nothing reaches a client unsigned.",
+  "author": { "name": "Visionary Media" },
+  "skills": "./skills"
+}

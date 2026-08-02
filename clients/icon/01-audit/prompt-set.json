@@ -1,0 +1,141 @@
+[
+  {
+    "prompt": "best UGC ad agency for DTC brands",
+    "prompt_type": "category",
+    "engine": "Perplexity",
+    "date": "2026-07-31",
+    "client_named": false,
+    "client_position": null,
+    "competitors_named": [
+      "Brighter Click",
+      "MHI Media",
+      "The Influence Agency",
+      "New Engen",
+      "MuteSix"
+    ],
+    "sources_cited": [],
+    "sentiment": "n/a",
+    "screenshot": "images/fig1.png",
+    "verbatim_note": ""
+  },
+  {
+    "prompt": "best AI ad generator for ecommerce brands",
+    "prompt_type": "category",
+    "engine": "Perplexity",
+    "date": "2026-07-31",
+    "client_named": false,
+    "client_position": null,
+    "competitors_named": [
+      "Creatify",
+      "Shhots AI",
+      "AdCreative.ai"
+    ],
+    "sources_cited": [],
+    "sentiment": "n/a",
+    "screenshot": "images/fig3.png",
+    "verbatim_note": ""
+  },
+  {
+    "prompt": "Billo alternatives for UGC video ads",
+    "prompt_type": "alternatives",
+    "engine": "Perplexity",
+    "date": "2026-07-31",
+    "client_named": false,
+    "client_position": null,
+    "competitors_named": [
+      "Insense",
+      "Collabstr",
+      "JoinBrands",
+      "Influee",
+      "Trend.io"
+    ],
+    "sources_cited": [],
+    "sentiment": "n/a",
+    "screenshot": "images/fig2.png",
+    "verbatim_note": "Icon names Billo on its own pricing page."
+  },
+  {
+    "prompt": "Soona alternatives for UGC video ads",
+    "prompt_type": "alternatives",
+    "engine": "Perplexity",
+    "date": "",
+    "client_named": null,
+    "client_position": null,
+    "competitors_named": [],
+    "sources_cited": [],
+    "sentiment": "",
+    "screenshot": "",
+    "verbatim_note": ""
+  },
+  {
+    "prompt": "Icon vs Billo",
+    "prompt_type": "comparison",
+    "engine": "Perplexity",
+    "date": "",
+    "client_named": null,
+    "client_position": null,
+    "competitors_named": [],
+    "sources_cited": [],
+    "sentiment": "",
+    "screenshot": "",
+    "verbatim_note": ""
+  },
+  {
+    "prompt": "Icon vs Soona",
+    "prompt_type": "comparison",
+    "engine": "Perplexity",
+    "date": "",
+    "client_named": null,
+    "client_position": null,
+    "competitors_named": [],
+    "sources_cited": [],
+    "sentiment": "",
+    "screenshot": "",
+    "verbatim_note": ""
+  },
+  {
+    "prompt": "how to choose a UGC ad agency for DTC brands",
+    "prompt_type": "buying_guide",
+    "engine": "Perplexity",
+    "date": "",
+    "client_named": null,
+    "client_position": null,
+    "competitors_named": [],
+    "sources_cited": [],
+    "sentiment": "",
+    "screenshot": "",
+    "verbatim_note": ""
+  },
+  {
+    "prompt": "Is Icon (icon.com) a good service for UGC video ads?",
+    "prompt_type": "branded",
+    "engine": "Perplexity",
+    "date": "2026-07-31",
+    "client_named": true,
+    "client_position": null,
+    "competitors_named": [
+      "Billo",
+      "Soona",
+      "Arcads"
+    ],
+    "sources_cited": [
+      "trustpilot.com"
+    ],
+    "sentiment": "hedged",
+    "screenshot": "images/fig4.png",
+    "verbatim_note": "Answer sourced from review aggregators; raises concerns about pricing, terms and product limitations."
+  },
+  {
+    "prompt": "Icon reviews — is it legit?",
+    "prompt_type": "branded",
+    "engine": "Perplexity",
+    "date": "",
+    "client_named": null,
+    "client_position": null,
+    "competitors_named": [],
+    "sources_cited": [],
+    "sentiment": "",
+    "screenshot": "",
+    "verbatim_note": ""
+  }
+]

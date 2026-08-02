@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# build artefacts — regenerate with `python _system/vm.py build <client>`
+clients/*/03-proposal/*.pdf
+clients/*/01-audit/audit-report*.pdf
+clients/*/01-audit/_build.md
+clients/*/03-proposal/_build.md
+
+# never commit a rejected or superseded record
+clients/*/01-audit/audit-record.REJECTED.json
+clients/*/01-audit/audit-record.NEW.json

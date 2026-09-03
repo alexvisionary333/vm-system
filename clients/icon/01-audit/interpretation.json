@@ -15,6 +15,14 @@
       "client_dependencies": [
         "Customer list for review outreach",
         "Named approver"
+      ],
+      "addresses": [
+        "live_ai_baseline",
+        "entity_schema"
+      ],
+      "moves": [
+        "Branded answer sentiment",
+        "Pages cited — Gemini"
       ]
     },
     {
@@ -26,6 +34,13 @@
         "Comparison pages vs Billo, Soona, Arcads, Insense",
         "Outreach to roundup maintainers",
         "Directory and review profiles claimed"
+      ],
+      "addresses": [
+        "off_domain_authority"
+      ],
+      "moves": [
+        "Discovery prompts naming the client",
+        "AI Visibility score"
       ]
     },
     {
@@ -36,6 +51,12 @@
       "deliverables": [
         "Launch coverage structured and syndicated",
         "Post-launch re-run of the full prompt set"
+      ],
+      "addresses": [
+        "on_page"
+      ],
+      "moves": [
+        "AI Visibility score"
       ]
     }
   ],

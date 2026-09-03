@@ -18,6 +18,7 @@ let a stage advance until a person has signed it off.
     vm.py ok <client> [--by NAME]    approve the current gate
     vm.py price <client> 2000/6 4000/6 7000/6
     vm.py report <client>            render the Call 1 leave-behind
+    vm.py plan <client>              write the why + plan sections
     vm.py build <client>             validate + render the proposal
     vm.py serve [--port 8765]        local control panel, no internet needed
 
@@ -300,7 +301,8 @@ HOWTO = {
         f'  python _system/vm.py price {c} 2000/6 4000/6 7000/6\n'
         f'(monthly/term-in-months). Or just type them into the notes.'),
     "proposal": lambda c, cfg: (
-        f'Draft clients/{c}/03-proposal/proposal.md from the record and the notes,\n'
+        f'python _system/vm.py plan {c}      (writes why + plan from the record)\n'
+        f'Then finish clients/{c}/03-proposal/proposal.md from the notes,\n'
         f'then: python _system/vm.py build {c}\n'
         f'If it blocks, fix the source data — never the check.'),
 }
@@ -389,6 +391,13 @@ def cmd_audit(a):
 def cmd_report(a):
     cdir = _resolve(a.client)
     code, out = run([sys.executable, str(SYS_DIR / "render_audit_report.py"), str(cdir)])
+    print(out.rstrip())
+    return code
+
+
+def cmd_plan(a):
+    cdir = _resolve(a.client)
+    code, out = run([sys.executable, str(SYS_DIR / "plan.py"), str(cdir)])
     print(out.rstrip())
     return code
 
@@ -729,7 +738,8 @@ def main():
         au.add_argument(f, default=None)
     au.add_argument("--force", action="store_true"); au.set_defaults(fn=cmd_audit)
 
-    for name, fn in (("report", cmd_report), ("build", cmd_build), ("next", cmd_next)):
+    for name, fn in (("report", cmd_report), ("build", cmd_build),
+                     ("plan", cmd_plan), ("next", cmd_next)):
         s = sub.add_parser(name); s.add_argument("client"); s.set_defaults(fn=fn)
 
     st = sub.add_parser("status"); st.add_argument("client", nargs="?")

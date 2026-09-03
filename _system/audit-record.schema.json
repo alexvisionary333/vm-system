@@ -302,13 +302,28 @@
             "type": "array",
             "items": {
               "type": "string"
-            }
+            },
+            "description": "The specific artefacts we build. Name the thing, not the activity: 'Comparison page vs Billo', not 'competitor content work'. If a client could not tell whether it had been delivered, it is not a deliverable."
           },
           "client_dependencies": {
             "type": "array",
             "items": {
               "type": "string"
             }
+          },
+          "addresses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Which gaps[].layer values this track fixes. Links the plan back to the measured problem so the proposal can say what changes and why."
+          },
+          "moves": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Which targets[].metric values this track moves. Links the plan forward to the number the client is being promised."
           }
         }
       }

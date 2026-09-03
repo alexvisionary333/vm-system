@@ -13,11 +13,11 @@ output: /home/claude/vm/icon-proposal.pdf
 
 We ran the questions your buyers actually ask, in the engines they ask them in.
 
-| Prompt (Perplexity, Jul 31 2026) | Who got named | Icon |
+| Prompt (Perplexity, 2026-07-31) | Who got named | icon |
 |---|---|---|
-| best UGC ad agency for DTC brands | Brighter Click, MHI Media, The Influence Agency, New Engen | <span class="zero">Not named</span> |
+| best UGC ad agency for DTC brands | Brighter Click, MHI Media, The Influence Agency, New Engen, MuteSix | <span class="zero">Not named</span> |
+| best AI ad generator for ecommerce brands | Creatify, Shhots AI, AdCreative.ai | <span class="zero">Not named</span> |
 | Billo alternatives for UGC video ads | Insense, Collabstr, JoinBrands, Influee, Trend.io | <span class="zero">Not named</span> |
-| best AI ad generator for ecommerce | Creatify, Shhots AI, AdCreative.ai | <span class="zero">Not named</span> |
 
 ![**Fig 1.** Perplexity, "best UGC ad agency for DTC brands." Icon does not appear in the shortlist.](../01-audit/images/fig1.png)
 
@@ -40,16 +40,82 @@ Then we asked about Icon by name. The engine knows you. What it says is the prob
 
 # Why this is happening
 
-Three different failures, not one.
+icon isn't missing from these answers because the work isn't good enough. It's missing for specific reasons, and all of them are fixable. Each one is below with the track that fixes it.
 
-### ChatGPT reads you and doesn't recommend you
-34 cited pages against 3 mentions. It crawls icon.com constantly and treats it as reference material, not as an answer to "who should I hire."
+### Your site never tells the AI what you are
 
-### Google AI Mode mentions you and doesn't cite you
-15 mentions, 1 cited page. It knows the name from third-party chatter but won't quote your site.
+When someone asks an AI who to hire, it looks for structured information on your site that says what the company does, what it sells, and what people think of it. icon.com has none of that. So the AI fills the gap with whatever other websites have said about you, which is why the answer about icon comes back in someone else's words.
 
-### Gemini does neither
-4 mentions, 0 citations.
+*What we measured: present: none; absent: Organization, WebSite, Service/Product, FAQPage, Review; ChatGPT: 34 page(s) cited.*
+
+### The pages the AI quotes don't mention you
+
+Category answers get built from third party roundups and buyer's guides, not from your own website. Those are the pages getting quoted and icon isn't on any of them. Right now there is no path for the AI to name you, no matter how good the work is.
+
+*What we measured: “best UGC ad agency for DTC brands” (Perplexity, 2026-07-31) — not named; returned: Brighter Click, MHI Media, The Influence Agency, New Engen, MuteSix; “best AI ad generator for ecommerce brands” (Perplexity, 2026-07-31) — not named; returned: Creatify, Shhots AI, AdCreative.ai; “Billo alternatives for UGC video ads” (Perplexity, 2026-07-31) — not named; returned: Insense, Collabstr, JoinBrands, Influee, Trend.io.*
+
+### Nothing you own answers the buying question
+
+When someone asks if icon is any good, the AI needs a page that answers that. icon.com doesn't have one. So it pulls from review aggregators instead, and those get written by unhappy customers way more often than happy ones.
+
+*What we measured: “Is Icon (icon.com) a good service for UGC video ads?” (Perplexity, 2026-07-31) — cited: trustpilot.com; Answer sourced from review aggregators; raises concerns about pricing, terms and product limitations..*
+
+### Your pages describe the product, not the decision
+
+The AI platforms are crawling icon.com constantly, that part is working fine. The problem is what they find when they get there. They read it as product information rather than an answer to “who should I hire,” so all that crawling turns into citations without recommendations.
+
+*What we measured: source: Semrush; ChatGPT: 3 mention(s) from 34 cited page(s); Google AI Overviews: 2 mention(s) from 3 cited page(s).*
+
+### Access isn't the problem
+
+Every major AI crawler is allowed in and your sitemap is declared. Worth saying because it's usually the first thing an agency will sell you a fix for. Yours is already right.
+
+# The plan
+
+Each track has three parts: what's wrong now, what we actually build, and which number it moves. Nothing here is vague activity. Everything listed either exists at the end of it or it doesn't.
+
+### Track 1 — Own the branded answer
+
+**What's wrong today** — Branded queries respond to source availability, not to accumulated authority, so this is the only track that can move before a launch.
+
+**What we build**
+
+- Citable answers for is-Icon-legit / pricing / vs-Billo / vs-Soona
+- Review velocity across Trustpilot, G2, Capterra
+- Organization, Service, FAQPage, Review schema
+
+**What it moves** — REPLACE: name the targets[].metric rows this track moves, via `moves`.
+
+**First results:** weeks · **Effort:** medium
+
+**We need from you:** Customer list for review outreach; Named approver.
+
+### Track 2 — Enter the category set
+
+**What's wrong today** — Roundup placements and review-site authority are what the engines actually read for category questions, and they accumulate slowly.
+
+**What we build**
+
+- Comparison pages vs Billo, Soona, Arcads, Insense
+- Outreach to roundup maintainers
+- Directory and review profiles claimed
+
+**What it moves** — REPLACE: name the targets[].metric rows this track moves, via `moves`.
+
+**First results:** 3-6 months · **Effort:** high
+
+### Track 3 — Capture the launch
+
+**What's wrong today** — Launch coverage is the raw material engines will cite for the next year; unstructured, it is wasted on this channel.
+
+**What we build**
+
+- Launch coverage structured and syndicated
+- Post-launch re-run of the full prompt set
+
+**What it moves** — REPLACE: name the targets[].metric rows this track moves, via `moves`.
+
+**First results:** weeks · **Effort:** medium
 
 # What changes, measured
 

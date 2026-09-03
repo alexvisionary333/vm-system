@@ -2,12 +2,12 @@
 title: AI Visibility Audit
 headline: icon is not in the answer when buyers ask who to hire
 client: icon
-date: August 2, 2026
-valid_through: August 23, 2026
+date: September 3, 2026
+valid_through: September 24, 2026
 ---
 
 <p class="lead">We asked the engines the questions your buyers ask, in the
-week of Aug 2 2026. Everything below is what came back. No projections, no
+week of Sep 3 2026. Everything below is what came back. No projections, no
 pricing, no plan — those come after we have talked. This is the measurement.</p>
 
 # What we found
@@ -136,7 +136,7 @@ Every major AI crawler is permitted and a sitemap is declared. The engines can r
 
 <div class="callout">
 Measured:<br>
-robots.txt read 2026-08-02<br>
+robots.txt read 2026-09-03<br>
 permitted: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, CCBot, Bytespider, Applebot-Extended<br>
 disallowed: none<br>
 sitemap: https://icon.com/sitemap.xml
@@ -157,7 +157,7 @@ The audit could not determine the following. They are listed here rather than es
 
 # How to reproduce this
 
-- **Run date** Aug 2 2026 · **operator** Alex
+- **Run date** Sep 3 2026 · **operator** Alex
 - **Engines** Perplexity
 - **Prompts** 4 distinct, 4 prompt-engine runs
 - **Prompt set reviewed by a human** yes

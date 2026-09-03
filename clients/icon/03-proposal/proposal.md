@@ -48,11 +48,15 @@ When someone asks an AI who to hire, it looks for structured information on your
 
 *What we measured: present: none; absent: Organization, WebSite, Service/Product, FAQPage, Review; ChatGPT: 34 page(s) cited.*
 
+**Fixed by Track 1, Own the branded answer.**
+
 ### The pages the AI quotes don't mention you
 
 Category answers get built from third party roundups and buyer's guides, not from your own website. Those are the pages getting quoted and icon isn't on any of them. Right now there is no path for the AI to name you, no matter how good the work is.
 
 *What we measured: “best UGC ad agency for DTC brands” (Perplexity, 2026-07-31) — not named; returned: Brighter Click, MHI Media, The Influence Agency, New Engen, MuteSix; “best AI ad generator for ecommerce brands” (Perplexity, 2026-07-31) — not named; returned: Creatify, Shhots AI, AdCreative.ai; “Billo alternatives for UGC video ads” (Perplexity, 2026-07-31) — not named; returned: Insense, Collabstr, JoinBrands, Influee, Trend.io.*
+
+**Fixed by Track 2, Enter the category set.**
 
 ### Nothing you own answers the buying question
 
@@ -60,11 +64,15 @@ When someone asks if icon is any good, the AI needs a page that answers that. ic
 
 *What we measured: “Is Icon (icon.com) a good service for UGC video ads?” (Perplexity, 2026-07-31) — cited: trustpilot.com; Answer sourced from review aggregators; raises concerns about pricing, terms and product limitations..*
 
+**Fixed by Track 1, Own the branded answer.**
+
 ### Your pages describe the product, not the decision
 
 The AI platforms are crawling icon.com constantly, that part is working fine. The problem is what they find when they get there. They read it as product information rather than an answer to “who should I hire,” so all that crawling turns into citations without recommendations.
 
 *What we measured: source: Semrush; ChatGPT: 3 mention(s) from 34 cited page(s); Google AI Overviews: 2 mention(s) from 3 cited page(s).*
+
+**Fixed by Track 3, Capture the launch.**
 
 ### Access isn't the problem
 
@@ -76,7 +84,10 @@ Each track has three parts: what's wrong now, what we actually build, and which 
 
 ### Track 1 — Own the branded answer
 
-**What's wrong today** — Branded queries respond to source availability, not to accumulated authority, so this is the only track that can move before a launch.
+**What's wrong today**
+
+- Asked about the brand by name, the engine answers from trustpilot.com and not from icon.com. The tone is hedged.
+- The homepage carries no structured data at all — 0 JSON-LD blocks. Nothing on the site tells an engine what this company is or what it sells. Gemini cites zero pages.
 
 **What we build**
 
@@ -84,7 +95,19 @@ Each track has three parts: what's wrong now, what we actually build, and which 
 - Review velocity across Trustpilot, G2, Capterra
 - Organization, Service, FAQPage, Review schema
 
-**What it moves** — REPLACE: name the targets[].metric rows this track moves, via `moves`.
+**What stops being missing**
+
+- An owned page icon.com controls that answers “Is Icon (icon.com) a good service for UGC video ads?”
+- Organization structured data on the homepage
+- WebSite structured data on the homepage
+- Service/Product structured data on the homepage
+- FAQPage structured data on the homepage
+- Review structured data on the homepage
+
+**What it moves**
+
+- **Branded answer sentiment** — hedged today, neutral by day 90 (positive if it runs hot). Fastest row. Depends only on owned sources existing.
+- **Pages cited — Gemini** — 0 today, 3 by day 90 (6 if it runs hot). Blocked on schema and entity work; expect nothing for the first 30 days, then a step change.
 
 **First results:** weeks · **Effort:** medium
 
@@ -92,7 +115,9 @@ Each track has three parts: what's wrong now, what we actually build, and which 
 
 ### Track 2 — Enter the category set
 
-**What's wrong today** — Roundup placements and review-site authority are what the engines actually read for category questions, and they accumulate slowly.
+**What's wrong today**
+
+- Absent from all 3 discovery prompts. 13 other companies were named instead.
 
 **What we build**
 
@@ -100,20 +125,37 @@ Each track has three parts: what's wrong now, what we actually build, and which 
 - Outreach to roundup maintainers
 - Directory and review profiles claimed
 
-**What it moves** — REPLACE: name the targets[].metric rows this track moves, via `moves`.
+**What stops being missing**
+
+- Presence in the sources that answer “best UGC ad agency for DTC brands”
+- Presence in the sources that answer “best AI ad generator for ecommerce brands”
+- Presence in the sources that answer “Billo alternatives for UGC video ads”
+
+**What it moves**
+
+- **Discovery prompts naming the client** — 0 of 3 today, 1 by day 90 (2 if it runs hot). Slowest row. Depends on third-party roundups, which take 60 to 90 days to surface in citations.
+- **AI Visibility score** — 18 today, 26 by day 90 (34 if it runs hot). Composite; moves as the underlying layers move.
 
 **First results:** 3-6 months · **Effort:** high
 
 ### Track 3 — Capture the launch
 
-**What's wrong today** — Launch coverage is the raw material engines will cite for the next year; unstructured, it is wasted on this channel.
+**What's wrong today**
+
+- ChatGPT reads 34 pages on the site and names the brand 3 time(s). The pages are being crawled and are not producing recommendations.
 
 **What we build**
 
 - Launch coverage structured and syndicated
 - Post-launch re-run of the full prompt set
 
-**What it moves** — REPLACE: name the targets[].metric rows this track moves, via `moves`.
+**What stops being missing**
+
+- Pages that answer a hiring question directly — ChatGPT currently finds 31 page(s) it reads but does not cite in an answer
+
+**What it moves**
+
+- **AI Visibility score** — 18 today, 26 by day 90 (34 if it runs hot). Composite; moves as the underlying layers move.
 
 **First results:** weeks · **Effort:** medium
 

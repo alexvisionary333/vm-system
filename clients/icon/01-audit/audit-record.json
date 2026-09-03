@@ -13,7 +13,7 @@
     "positioning_note": "Launched as 'The AI Admaker', now positioned 'no AI / 100% real'. Original launch drove 2.2M X views and 9.2K LinkedIn comments describing the previous category."
   },
   "run": {
-    "date": "2026-08-02",
+    "date": "2026-09-03",
     "operator": "Alex",
     "prompt_set_reviewed_by_human": true
   },
@@ -122,7 +122,7 @@
       "finding": "Every major AI crawler is permitted and a sitemap is declared. The engines can read the site — this is not the constraint.",
       "missing": [],
       "evidence": [
-        "robots.txt read 2026-08-02",
+        "robots.txt read 2026-09-03",
         "permitted: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, anthropic-ai, PerplexityBot, Google-Extended, CCBot, Bytespider, Applebot-Extended",
         "disallowed: none",
         "sitemap: https://icon.com/sitemap.xml"
@@ -200,6 +200,14 @@
       "client_dependencies": [
         "Customer list for review outreach",
         "Named approver"
+      ],
+      "addresses": [
+        "live_ai_baseline",
+        "entity_schema"
+      ],
+      "moves": [
+        "Branded answer sentiment",
+        "Pages cited — Gemini"
       ]
     },
     {
@@ -211,6 +219,13 @@
         "Comparison pages vs Billo, Soona, Arcads, Insense",
         "Outreach to roundup maintainers",
         "Directory and review profiles claimed"
+      ],
+      "addresses": [
+        "off_domain_authority"
+      ],
+      "moves": [
+        "Discovery prompts naming the client",
+        "AI Visibility score"
       ]
     },
     {
@@ -221,6 +236,12 @@
       "deliverables": [
         "Launch coverage structured and syndicated",
         "Post-launch re-run of the full prompt set"
+      ],
+      "addresses": [
+        "on_page"
+      ],
+      "moves": [
+        "AI Visibility score"
       ]
     }
   ],

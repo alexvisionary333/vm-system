@@ -1,0 +1,17 @@
+{
+  "_README": "The two things a crawl cannot produce. The strategist writes these after reading the captured answers. Leave blank and the audit still validates — the proposal will just carry REPLACE markers for the plan and the day-90 column.",
+  "positioning_note": "",
+  "recommendations": [
+    {
+      "track": "",
+      "rationale": "",
+      "time_to_impact": "",
+      "effort": "",
+      "deliverables": [],
+      "client_dependencies": []
+    }
+  ],
+  "target_commitments": {
+    "_README": "key = the exact `metric` string run_audit derived; value = {\"day_90\": ..., \"stretch\": ..., \"pace_note\": \"...\"}"
+  }
+}

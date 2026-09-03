@@ -1,0 +1,11 @@
+{
+  "client": "Relier",
+  "config": {
+    "url": "https://relier.com/",
+    "category": "worldwide executive car service company for business and luxury travellers",
+    "offering": "private chauffeur and airport transfer service",
+    "competitors": "Blacklane, Carey, EmpireCLS, Wheely",
+    "operator": "Alex"
+  },
+  "gates": {}
+}

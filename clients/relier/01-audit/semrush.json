@@ -1,0 +1,43 @@
+{
+  "_README": "Paste from the Semrush AI Toolkit + Domain Overview. Delete any line you cannot read off the screen \u2014 a deleted line becomes an unknown, a guessed line becomes a lie in a client PDF.",
+  "source": "Semrush",
+  "date": "2026-08-25",
+  "ai_visibility_score": 14,
+  "mentions_by_engine": {
+    "ChatGPT": 8,
+    "Google AI Overview": 0,
+    "Google AI Mode": 10,
+    "Gemini": 0
+  },
+  "cited_pages_by_engine": {
+    "ChatGPT": 5,
+    "Google AI Overview": 13,
+    "Google AI Mode": 46,
+    "Gemini": 0
+  },
+  "mentions_total": 18,
+  "cited_pages_total": 61,
+  "authority_score": 13,
+  "organic_traffic": {
+    "value": 164,
+    "delta_pct": 8.6
+  },
+  "organic_keywords": {
+    "value": 422,
+    "delta_pct": -12
+  },
+  "paid_keywords": 0,
+  "backlinks": 2400,
+  "referring_domains": 404,
+  "_notes": [
+    "Scope: Worldwide, Desktop, USD, dated Aug 25 2026, read off one Domain Overview screenshot supplied by Alex.",
+    "Per-engine cited pages sum to 64; the platform total reads 61. Platform figure kept and attributed, per workflow Stage 5.",
+    "Backlinks displayed as '2.4K' \u2014 recorded as 2400, rounded by Semrush, not by us.",
+    "Top Cited Sources panel (US): reddit.com 4, google.com 4, detaileddrivers.com 4. relier.com does not appear in its own top-cited list.",
+    "Google SERP position distribution: Top3 6, 4-10 5, 11-20 19, 21-50 241, 51-100 106, AI Overviews 2, other SERP features 43, total 422.",
+    "Country visibility/mentions: Worldwide 14/18, US 16/14, AU 14/1, CA 14/1. US traffic share 7%."
+  ],
+  "evidence_screenshots": [
+    "images/semrush-domain-overview-2026-08-25.png"
+  ]
+}

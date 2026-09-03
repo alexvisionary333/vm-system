@@ -1,0 +1,36 @@
+{
+  "url": "https://relier.com",
+  "checked": "2026-08-27",
+  "homepage_status": 200,
+  "title": "Worldwide Private Chauffeur &amp; Car Service | Relier",
+  "meta_description": "Private chauffeur and executive car service in 500+ cities worldwide. Airport transfers, corporate travel, events and hourly rides with Relier.",
+  "sitemap_urls": [
+    "https://relier.com/sitemap.xml"
+  ],
+  "robots_status": 200,
+  "ai_crawlers_blocked": [
+    "GPTBot",
+    "ClaudeBot",
+    "Google-Extended",
+    "CCBot",
+    "Bytespider",
+    "Applebot-Extended"
+  ],
+  "ai_crawlers_allowed": [
+    "OAI-SearchBot",
+    "ChatGPT-User",
+    "anthropic-ai",
+    "PerplexityBot"
+  ],
+  "entity_types_present": [
+    "WebSite"
+  ],
+  "entity_types_missing": [
+    "Organization",
+    "Service/Product",
+    "FAQPage",
+    "Review"
+  ],
+  "jsonld_blocks": 1,
+  "errors": []
+}
